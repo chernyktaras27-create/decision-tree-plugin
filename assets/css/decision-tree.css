@@ -1,0 +1,84 @@
+.dtree-container {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #fff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  max-width: 760px;
+  margin: 24px auto;
+  border: 1px solid #eef1f4;
+}
+
+.dtree-title {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 0 0 16px;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.answer {
+  display: block;
+  padding: 18px 16px;
+  border: 2px solid #e8ecf2;
+  border-radius: 14px;
+  background: #f9fbff;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.06s ease, box-shadow 0.12s ease, background 0.12s ease,
+    border-color 0.12s ease;
+}
+
+.answer:hover,
+.answer:focus {
+  background: #f3f7ff;
+  border-color: #d7e2f0;
+  box-shadow: 0 6px 16px rgba(30, 81, 255, 0.08);
+  transform: translateY(-1px);
+}
+
+.back-btn {
+  margin-top: 18px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  border: 1px solid #d7e2f0;
+  background: #fff;
+  color: #1f2a44;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #f6f8fc;
+}
+
+.recommendation-text {
+  font-size: 1.05rem;
+  margin: 10px 0 16px;
+}
+
+.recommendation-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.primary-link {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #1e52ff;
+  color: #fff;
+  border: 1px solid #1e52ff;
+}
+
+.primary-link:hover {
+  filter: brightness(0.98);
+}
